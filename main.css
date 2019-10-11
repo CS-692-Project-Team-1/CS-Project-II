@@ -26,6 +26,7 @@ box-sizing: border-box;
 	grid-area: topbanner;
 	background-color: red;
 	border:1px solid black;
+	display: flex;
 
 }
 
@@ -150,4 +151,65 @@ box-sizing: border-box;
 	background-color: skyblue;
 			border: 1px solid black;
 
+}
+
+/*This is for menu*/
+.navigation{
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+	min-height: 100px;
+    min-width: 100px;
+    width: 50%
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6; 
+  min-width:  30vh;
+}
+
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+.menu {
+	display: flex;
+	width: auto;
+	height: 46px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid rgba(238,238,238 ,1);
+  border-radius: 5px;
+  color: rgba(117,117,117 ,1);
+  box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);
+}
+
+.menu li {
+  cursor: pointer;
+}
+.menu li:hover{
+  color: rgba(85,172,238 ,1);
+}
+
+
+
+.menu li:not(:last-child) {
+  margin-right: 10px;
+}
+.menu li  i {
+  margin-right: 3px;
+}
+.menu li > button {
+  font-size: 0.8em;
+  border: 0;
+  background: rgba(85,172,238 ,1);
+  color: #fff;
+  border-radius: 100px;
+}
+
+.h3{
+	margin-left: auto;
+	margin-right: auto;
 }
