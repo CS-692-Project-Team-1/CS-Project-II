@@ -1,0 +1,153 @@
+*{
+
+box-sizing: border-box;	
+}
+
+.main{
+	display: grid;
+	grid: 'topbanner topbanner topbanner'
+			'navigation navigation navigation'
+			'mainbannerLocation mainbannerLocation mainbannerLocation'
+			'first second third'
+			'secondbanner secondbanner secondbanner'
+			'category category category'
+			'downloadapp downloadapp downloadapp'
+			'locate locate locate'
+			'footer footer footer';
+	grid-gap: 20px;
+	grid-auto-flow: dense;
+	word-wrap: break-word;
+	background-color: snow;
+}
+
+.topbanner {
+	height: 50px;
+	width: auto;
+	grid-area: topbanner;
+	background-color: red;
+	border:1px solid black;
+
+}
+
+.navigation {
+	height: 100px;
+	width: auto;
+	grid-area: navigation;
+	background-color: snow;
+	border: 1px solid black;
+}
+
+.mainbannerLocation {
+	height: 400px;
+	width: auto;
+	grid-area: mainbannerLocation;
+	background-color: blue;
+	border: 1px solid black;
+}
+
+/*.rows{
+	height: 200px;
+	width: auto;
+	background-color: yellow;
+}*/
+
+.first{
+	height: auto;
+	width: 200px;
+	grid-area: first;
+	background-color: blue;
+	border: 1px solid black;
+
+}
+.second {
+	height: auto;
+	width: 200px;
+	grid-area: second;
+	background-color: blue;
+	border: 1px solid black;
+
+}
+
+.third{
+	height: auto;
+	width: 200px;
+	grid-area: third;
+	background-color: blue;
+	border: 1px solid black;
+}
+.secondbanner {
+	height: 400px;
+	width: auto;
+	grid-area: secondbanner;
+	background-color: blue;
+	border: 1px solid black;
+
+}
+.category {
+	height: 300px;
+	width: auto;
+	display: grid;
+	grid: 'beer beer wine wine liquor liquor extras extras';
+			grid-gap: 20px;
+	grid-auto-flow: dense;
+	word-wrap: break-word;
+	background-color: green;
+
+}
+.beer {
+	height: 250px;
+	width: auto;
+	grid-area: beer;
+	background-color: brown;
+		border: 1px solid black;
+
+}
+.wine {
+	height: 250px;
+	width: auto;
+	grid-area: wine;
+	background-color: red;
+		border: 1px solid black;
+
+}
+.liquor {
+	height: 250px;
+	width: auto;
+	grid-area: liquor;
+	background-color: grey;
+		border: 1px solid black;
+}
+.extras {
+	height: 250px;
+	width: auto;
+	grid-area: extras;
+	background-color: orange;
+		border: 1px solid black;
+}
+
+.downloadapp{
+	height: 350px;
+	width: auto;
+	grid-area: downloadapp;
+	background-color: purple;
+			border: 1px solid black;
+
+}
+
+.locate{
+	height: 400px;
+	width: auto;
+	grid-area: locate;
+	background-color: pink;
+			border: 1px solid black;
+
+}
+
+.footer{
+	height: 350px;
+	width: auto;
+	grid-area: footer;
+	background-color: skyblue;
+			border: 1px solid black;
+
+}
