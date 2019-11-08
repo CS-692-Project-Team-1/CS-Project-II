@@ -1,3 +1,3 @@
-# Django Ecommerce
+# Happy Hours
 
-An ecommerce website built with Django.
+Happy Hours is a liquor delivery e-commerce web-based application created as a part of CS 692 Computer Science Project II
